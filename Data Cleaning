@@ -1,0 +1,20 @@
+-- This code will create a new row "mode_day" that will convert the numeric day of week into a string
+mode_day AS (
+	SELECT
+		CASE day_of_week
+			WHEN 1 THEN 'Sunday'
+			WHEN 2 THEN 'Monday'
+			WHEN 3 THEN 'Tuesday'
+			WHEN 4 THEN 'Wednesday'
+			WHEN 5 THEN 'Thursday'
+			WHEN 6 THEN 'Friday'
+			WHEN 7 THEN 'Saturday'
+		END AS mode_day_of_week
+	FROM (
+		SELECT day_of_week, COUNT(*) AS freq
+		FROM combined_data
+		GROUP BY day_of_week
+		ORDER BY freq DESC
+		LIMIT 1
+		)
+	)
