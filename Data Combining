@@ -1,1 +1,30 @@
+-- This Code will merge all 12 datasets and present only 4 columns titled as combined_data
+WITH combined_data AS (
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'June' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.1 - June 2024`
+	UNION ALL
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'July' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.2 - July 2024`
+	UNION ALL
+	SELECT ride_length, member_casual, day_of_week, rideable_type 'August' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.3 - August 2024`
+	UNION ALL
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'September' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.4 - September 2024`
+	UNION ALL
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'October' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.5 - October 2024`
+	UNION ALL
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'November' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.6 - November 2024`
+	UNION ALL
 
+-- Formatting error here where the ride_length column was being registered as a string rather than a column. Formatting the data to time in excel didn't solve the issue so the code below registers the values in the column in the format of Hours:Minutes:Seconds
+	
+	SELECT SAFE.PARSE_TIME('%H:%M:%S', CAST(ride_length AS STRING)) AS ride_length, member_casual, day_of_week, rideable_type, 'December' AS ride_month
+	FROM `yaacoub-9854.Case_study_bike_data.7 - December 2024`
+	UNION ALL
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'January' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.8 - January 2025`
+	UNION ALL
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'February' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.9 - February 2025`
+	UNION ALL
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'March' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.10 - March 2025`
+	UNION ALL
+SELECT ride_length, member_casual, day_of_week, rideable_type, 'April' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.11 - April 2025`
+UNION ALL
+SELECT ride_length, member_casual, day_of_week, rideable_type, 'May' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.12 - May 2025`
+)
