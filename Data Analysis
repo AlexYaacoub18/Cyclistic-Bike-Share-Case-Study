@@ -1,0 +1,145 @@
+-- This code will create a new row "mode_day" that will convert the numeric day of week into a string
+
+mode_day AS (
+	SELECT
+		CASE day_of_week
+			WHEN 1 THEN 'Sunday'
+			WHEN 2 THEN 'Monday'
+			WHEN 3 THEN 'Tuesday'
+			WHEN 4 THEN 'Wednesday'
+			WHEN 5 THEN 'Thursday'
+			WHEN 6 THEN 'Friday'
+			WHEN 7 THEN 'Saturday'
+		END AS mode_day_of_week
+	FROM (
+		SELECT day_of_week, COUNT(*) AS freq
+		FROM combined_data
+		GROUP BY 
+      day_of_week
+		ORDER BY 
+      freq DESC
+		LIMIT 1
+		)
+	);
+
+-- This code will find the min, max, count of casual and member riders, and the mode_day_of_week from the mode_day column I created the section before
+
+SELECT
+	COUNT(CASE WHEN member_casual = 'casual' THEN 1 END) AS casual_riders,
+	COUNT(CASE WHEN member_casual = 'member' THEN 1 END) AS member_riders,
+	MIN(ride_length) AS min_ride_length,
+	MAX(ride_length) AS max_ride_length,
+	(SELECT mode_day_of_week 
+	FROM mode_day) AS mode_day_of_week
+FROM combined_data;
+
+-- This code will identify how many types of scooters exist in the combined_data table
+
+SELECT
+	DISTINCT rideable_type
+FROM
+	combined_data;
+
+-- This code will find the total number of casual and member riders over 12 month and what they used
+
+SELECT
+  member_casual,
+  rideable_type,
+  COUNT(*) AS total_count
+FROM combined_data
+GROUP BY 
+  member_casual, 
+  rideable_type;
+
+-- This code will find the total average ride length based on whether the user is a member or casual rider
+
+SELECT
+	member_casual AS rider_type,
+	AVG(
+		EXTRACT(HOUR FROM CAST(ride_length AS TIME)) * 60 +
+		EXTRACT(MINUTE FROM CAST(ride_length AS TIME)) +
+		EXTRACT(SECOND FROM CAST(ride_length AS TIME)) / 60.0
+	) AS avg_ride_minutes
+FROM
+	combined_data
+GROUP BY rider_type
+ORDER BY rider_type;
+
+-- This code will find the total amount of rides per month based on whether
+
+SELECT
+	ride_month,
+	member_casual,
+	COUNT(*) as member_ride_count
+FROM combined_data
+GROUP BY 
+	ride_month, 
+	member_casual
+ORDER BY 
+	member_casual, 
+	CASE ride_month
+		WHEN 'June' THEN 1
+		WHEN 'July' THEN 2
+		WHEN 'August' THEN 3
+		WHEN 'September' THEN 4
+		WHEN 'October' THEN 5
+		WHEN 'November' THEN 6
+		WHEN 'December' THEN 7
+		WHEN 'January' THEN 8
+		WHEN 'February' THEN 9
+		WHEN 'March' THEN 10
+		WHEN 'April' THEN 11
+		WHEN 'May' THEN 12
+	END;
+
+-- This code will find the average ride duration for each rider type and month
+
+SELECT
+	member_casual,
+	ride_month,
+	AVG(
+		EXTRACT(HOUR FROM CAST(ride_length AS TIME)) * 60 +
+		EXTRACT(MINUTE FROM CAST(ride_length AS TIME)) +
+		EXTRACT(SECOND FROM CAST(ride_length AS TIME)) / 60.0
+	) AS avg_ride_minutes
+FROM combined_data
+GROUP BY 
+	ride_month, 
+	member_casual;
+
+-- This code will find the total rides per day of the week
+
+SELECT
+  member_casual,
+  CASE day_of_week
+    WHEN 1 THEN 'Sunday'
+    WHEN 2 THEN 'Monday'
+    WHEN 3 THEN 'Tuesday'
+    WHEN 4 THEN 'Wednesday'
+    WHEN 5 THEN 'Thursday'
+    WHEN 6 THEN 'Friday'
+    WHEN 7 THEN 'Saturday'
+  END AS day_name,
+  COUNT(*) AS ride_count
+FROM combined_data
+GROUP BY 
+	day_of_week, 
+	member_casual
+ORDER BY 
+	day_of_week, 
+	member_casual;
+
+-- This code will find the average ride duration for each rider type and month
+
+SELECT
+	member_casual,
+	day_of_week,
+	AVG(
+		EXTRACT(HOUR FROM CAST(ride_length AS TIME)) * 60 +
+		EXTRACT(MINUTE FROM CAST(ride_length AS TIME)) +
+		EXTRACT(SECOND FROM CAST(ride_length AS TIME)) / 60.0
+	) AS avg_ride_minutes
+FROM combined_data
+GROUP BY 
+	day_of_week,
+	member_casual;
