@@ -24,7 +24,7 @@ WITH combined_data AS (
 	UNION ALL
 	SELECT ride_length, member_casual, day_of_week, rideable_type, 'March' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.10 - March 2025`
 	UNION ALL
-SELECT ride_length, member_casual, day_of_week, rideable_type, 'April' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.11 - April 2025`
-UNION ALL
-SELECT ride_length, member_casual, day_of_week, rideable_type, 'May' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.12 - May 2025`
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'April' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.11 - April 2025`
+	UNION ALL
+	SELECT ride_length, member_casual, day_of_week, rideable_type, 'May' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.12 - May 2025`
 )
