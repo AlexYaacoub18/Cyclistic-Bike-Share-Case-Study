@@ -23,7 +23,7 @@ The basis for this analysis will be 12 months of bike data between the months of
 The steps for processing are as follows:
 1. [Data Cleaning](https://github.com/AlexYaacoub18/Cyclistic-Bike-Share-Case-Study/blob/main/Data%20Cleaning)
 2. [Data Combining](https://github.com/AlexYaacoub18/Cyclistic-Bike-Share-Case-Study/blob/main/Data%20Combining)
-3. 
+3. [Data Analysis](https://github.com/AlexYaacoub18/Cyclistic-Bike-Share-Case-Study/blob/main/Data%20Analysis)
 ### Data Cleaning
 - Manually went through each Excel file and cleared any null rows utilizing the conditional formatting feature.
 - Created a new column ride_length subtracting the values from started_at & ended_at to get the ride duration
