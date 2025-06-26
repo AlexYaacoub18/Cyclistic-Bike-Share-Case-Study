@@ -29,5 +29,5 @@ The steps for processing are as follows:
 - Created a new column ride_length subtracting the values from started_at & ended_at to get the ride duration
 - Added a day_of_week column using the weekday command
 ### Data Combining
-- Uploaded the 12 datasets to SQL BigQuery and used the WITH...AS and UNION ALL statements to create a temporary table titled as "combined_data" and merges all the 12 months datasets showcasing only the following columns: (ride_length, member_casual, day_of_week, rideable_type, 'June' AS ride_month)
+- Uploaded the 12 datasets to SQL BigQuery and used the WITH...AS and UNION ALL statements to create a temporary table titled as "combined_data" and merges all the 12 months datasets showcasing only the following columns: (ride_length, member_casual, day_of_week, rideable_type, ride_month)
 ### Data Analysis
