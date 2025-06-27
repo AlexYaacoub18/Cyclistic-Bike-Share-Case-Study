@@ -21,7 +21,7 @@ Design marketing strategies to **convert casual riders to members** by underst
 The basis for this analysis will be 12 months of bike data between the months of June 2024 and May 2025
 
 The steps for processing are as follows:
-1. [Data Cleaning](https://github.com/AlexYaacoub18/Cyclistic-Bike-Share-Case-Study/blob/main/Data%20Cleaning)
+1. Data Cleaning
 2. [Data Combining](https://github.com/AlexYaacoub18/Cyclistic-Bike-Share-Case-Study/blob/main/Data%20Combining)
 3. [Data Analysis](https://github.com/AlexYaacoub18/Cyclistic-Bike-Share-Case-Study/blob/main/Data%20Analysis)
 ### Data Cleaning
