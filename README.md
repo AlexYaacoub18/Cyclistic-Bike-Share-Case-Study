@@ -31,3 +31,5 @@ The steps for processing are as follows:
 ### Data Combining
 - Uploaded the 12 datasets to SQL BigQuery and used the WITH...AS and UNION ALL statements to create a temporary table titled as "combined_data" and merges all the 12 months datasets showcasing only the following columns: (ride_length, member_casual, day_of_week, rideable_type, ride_month)
 ### Data Analysis
+The analysis question was:
+#### How do annual members and casual riders use Cyclistic Bikes differently?
