@@ -33,3 +33,5 @@ The steps for processing are as follows:
 ### Data Analysis
 The analysis question was:
 #### How do annual members and casual riders use Cyclistic Bikes differently?
+The figure below shows the total number of rides carried out by Cyclistic members and casual riders in 2024/2025:
+<img width="284" alt="Screen Shot 2025-06-27 at 3 49 50 PM" src="https://github.com/user-attachments/assets/cbd5fa5a-5641-4bb7-b4b1-04cc5ae4e8de" />
