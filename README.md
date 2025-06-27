@@ -28,10 +28,12 @@ The steps for processing are as follows:
 - Manually went through each Excel file and cleared any null rows utilizing the conditional formatting feature.
 - Created a new column ride_length subtracting the values from started_at & ended_at to get the ride duration
 - Added a day_of_week column using the weekday command
+
 ### Data Combining
 - Uploaded the 12 datasets to SQL BigQuery and used the WITH...AS and UNION ALL statements to create a temporary table titled as "combined_data" and merges all the 12 months datasets showcasing only the following columns: (ride_length, member_casual, day_of_week, rideable_type, ride_month)
 ### Data Analysis
 The analysis question was:
 #### How do annual members and casual riders use Cyclistic Bikes differently?
+##### Total Rides 2024/2025
 The figure below shows the total number of rides carried out by Cyclistic members and casual riders in 2024/2025:
-<img width="284" alt="Screen Shot 2025-06-27 at 3 49 50 PM" src="https://github.com/user-attachments/assets/cbd5fa5a-5641-4bb7-b4b1-04cc5ae4e8de" />
+<img width="256" alt="Screen Shot 2025-06-27 at 11 44 22 PM" src="https://github.com/user-attachments/assets/0d0994e4-c5bc-4d0c-8308-94d8f727f4d1" />
