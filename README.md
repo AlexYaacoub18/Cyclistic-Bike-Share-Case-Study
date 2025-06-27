@@ -1,4 +1,4 @@
-# Cyclistic-Bike-Share-Case-Study
+AA# Cyclistic-Bike-Share-Case-Study
 # Introduction
 The **Cyclistic Bike Share Case Study** is a capstone project for the Google Data Analytics Professional Certificate on Coursera. In this project, I will follow the data analysis process, which I learned from the course: <ins>ask, prepare, process, analyze, share, and act</ins>, to analyze the data. 
 # Background
@@ -39,10 +39,19 @@ The figure below shows the total number of rides carried out by Cyclistic member
 <img width="256" alt="Screen Shot 2025-06-27 at 11 44 22 PM" src="https://github.com/user-attachments/assets/0d0994e4-c5bc-4d0c-8308-94d8f727f4d1" />
 - Cyclistic members recorded a greater bicycle activity than casual riders. The total rides for Cyclistic members are 523,323, while 254,096 trips are for casual riders
 - Cyclistic members accounted for about 67.61% of total rides, whereas casual riders made up 32.39% of total rides in that 12-month period
-##### **Types of Bikes**
+##### Types of Bikes
 The figure below shows the different types of bikes used for the duration of the 12 months for both member and casual members:
 <img width="826" alt="Screen Shot 2025-06-28 at 12 24 51 AM" src="https://github.com/user-attachments/assets/6b2de160-91da-49b1-bbab-a78bbab6ba7b" />
 - There are three types of bicycles: classic bikes, electric bikes, and electric scooters.
 - Cyclistic members and casual riders prefer to show a higher preference for electric bicycles over classic bicycles.
 - More casual riders have also used the electric scooters.
-#####
+##### Average ride duration
+<img width="837" alt="Screen Shot 2025-06-28 at 12 35 25 AM" src="https://github.com/user-attachments/assets/09ae35c3-3afc-4d98-b34e-2df9a6cab6ae" />
+##### Total rides taken in a month
+<img width="656" alt="Screen Shot 2025-06-28 at 12 35 50 AM" src="https://github.com/user-attachments/assets/4de0f842-c2d2-48e0-b512-6b7035c5a5f6" />
+##### Average monthly ride duration 
+<img width="654" alt="Screen Shot 2025-06-28 at 12 36 07 AM" src="https://github.com/user-attachments/assets/b1ef0089-e78f-4824-9e81-8d3620824905" />
+##### Total rides taken on days of the week
+<img width="472" alt="Screen Shot 2025-06-28 at 12 36 27 AM" src="https://github.com/user-attachments/assets/012f1b0b-e59b-41e8-957c-7951bad65138" />
+##### Average weekly ride duration
+<img width="475" alt="Screen Shot 2025-06-28 at 12 36 43 AM" src="https://github.com/user-attachments/assets/ab8d2f24-8125-4ada-b930-044787ba1bf3" />
