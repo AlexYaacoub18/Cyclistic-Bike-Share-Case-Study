@@ -39,7 +39,7 @@ The figure below shows the total number of rides carried out by Cyclistic member
 <img width="256" alt="Screen Shot 2025-06-27 at 11 44 22 PM" src="https://github.com/user-attachments/assets/0d0994e4-c5bc-4d0c-8308-94d8f727f4d1" />
 - Cyclistic members recorded a greater bicycle activity than casual riders. The total rides for Cyclistic members are 523,323, while 254,096 trips are for casual riders
 - Cyclistic members accounted for about 67.61% of total rides, whereas casual riders made up 32.39% of total rides in that 12-month period
-##### Types of Bikes
+##### **Types of Bikes**
 The figure below shows the different types of bikes used for the duration of the 12 months for both member and casual members:
 <img width="826" alt="Screen Shot 2025-06-28 at 12 24 51 AM" src="https://github.com/user-attachments/assets/6b2de160-91da-49b1-bbab-a78bbab6ba7b" />
 - There are three types of bicycles: classic bikes, electric bikes, and electric scooters.
