@@ -54,7 +54,7 @@ The average ride length is plotted against the type of users (member vs. casual)
 - Casual riders have an average ride duration of 18.327 minutes, whereas Annual members have a smaller average ride duration of 11.442 minutes. Hence, the disparity between casual and member riders is almost double.
 
 ##### - Total rides taken in a month
-The preference of cycling activity can be determined by drawing the graph of trips taken against month from January to December 2022.
+The preference of cycling activity can be determined by drawing the graph of trips taken against month from January to December 2022:
 <img width="565" alt="Screen Shot 2025-06-28 at 1 11 48 AM" src="https://github.com/user-attachments/assets/2c7e9e23-bdfa-4bb8-be24-cdd224974a23" />
 - Total riders every month seem pretty consistent, which might indicate an issue with growth in the market
 - We do see a slight fluctuation with an increase in casual and a decrease in member riders between July and November 2024
@@ -62,20 +62,20 @@ The preference of cycling activity can be determined by drawing the graph of tri
 - The month with the largest casual rider count of 32,103 was in August 2025
 
 ##### - Average monthly ride duration 
-The mean trip duration is depicted in the line graph below.
+The mean trip duration is depicted in the line graph below:
 <img width="654" alt="Screen Shot 2025-06-28 at 12 36 07 AM" src="https://github.com/user-attachments/assets/b1ef0089-e78f-4824-9e81-8d3620824905" />
 - The monthly average ride duration for annual members is the highest in July (13.53 minutes).
 - For casual riders, the highest mean trip duration is in May (25.68 minutes).
 
 ##### - Total rides taken on days of the week
-The bar chart below is used to study the daily user activity over a week.
+The bar chart below is used to study the daily user activity over a week:
 <img width="472" alt="Screen Shot 2025-06-28 at 12 36 27 AM" src="https://github.com/user-attachments/assets/012f1b0b-e59b-41e8-957c-7951bad65138" />
 - The highest volume of riders would occur on Fridays
 - Annual members have the highest activity (85,434 rides) on Wednesdays and the lowest activity (56,952 rides) on Sundays.
 - Casual riders have the greatest activity (49,885 rides) on Saturdays and the lowest activity (28,104 rides) on Tuesdays.
 
 ##### - Average weekly ride duration
-The mean ride duration across the week is displayed as follow.
+The mean ride duration across the week is displayed as follow:
 <img width="475" alt="Screen Shot 2025-06-28 at 12 36 43 AM" src="https://github.com/user-attachments/assets/ab8d2f24-8125-4ada-b930-044787ba1bf3" />
 - Annual members cycled the longest on Sunday with an average ride length of 12.64 minutes.
 - Casual riders cycled the longest on Sunday with an average ride length of 21.41 minutes.
