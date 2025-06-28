@@ -122,27 +122,27 @@ The analysis on the similarities and differences between annual member riders an
 - Introduce multiple membership tiers such as daily ($3), monthly ($30 to $45), and annual ($365) to meet the needs of different rider types.  
 - Casual riders who bike occasionally or seasonally may be more likely to join if there are low-commitment options available.
 
-#### Weekend-Focused Promotions
+#### <ins>Weekend-Focused Promotions<ins/>
 - Since casual riders are most active on weekends, offer special weekend-only promotions that encourage trying out membership.  
 - For example, consider launching offers like a "Weekend Pass" or "Free Trial Ride for First-Time Members."
 
-#### Electric Bike Incentives
+#### <ins>Electric Bike Incentives<ins/>
 - Casual riders prefer electric bikes more than member riders.  
 - Promote membership benefits such as lower e-bike rates or early access to electric bikes to appeal to this group.
 
-#### Ride More, Save More Loyalty Program
+#### <ins>Ride More, Save More Loyalty Program<ins/>
 - Create a loyalty program where all users earn points for each ride, but only members can redeem those points for rewards such as ride credits or discounts.  
 - This adds value to becoming a member while still engaging casual users.
 
-#### Seasonal Membership Campaigns
+#### <ins>Seasonal Membership Campaigns<ins/>
 - Use seasonal trends to launch timely membership drives.  
 - For instance, introduce a "Spring into Cycling" campaign with discounted sign-ups and extra perks like bonus ride minutes for new members.
 
-#### Weekday Commuter Trials
+#### <ins>Weekday Commuter Trials<ins/>
 - Casual riders ride less during weekdays, so encourage weekday use through targeted promotions.  
 - Offer morning or weekday-only discounts to show casual riders the benefit of using bikes for daily routines like commuting or errands.
 
-#### Community Engagement and Events
+#### <ins>Community Engagement and Events<ins/>
 - Host fun, member-centered events such as group rides, city scavenger hunts, or themed cycling days.  
 - Allow casual riders to participate as guests to experience the community aspect of membership.  
 - Promote these events on social media with member testimonials and photos to build excitement and encourage conversions.
