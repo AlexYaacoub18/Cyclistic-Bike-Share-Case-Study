@@ -40,7 +40,7 @@ The analysis question was:
 ##### - <ins>Total Rides 2024/2025<ins/>
 The figure below shows the total number of rides carried out by Cyclistic members and casual riders in 2024/2025:
 
-<img width="256" alt="Screen Shot 2025-06-27 at 11 44 22 PM" src="https://github.com/user-attachments/assets/0d0994e4-c5bc-4d0c-8308-94d8f727f4d1" />
+<img width="346" alt="Screen Shot 2025-06-28 at 8 34 27 AM" src="https://github.com/user-attachments/assets/762a7888-0803-4e73-9fec-c7f18a6af3d8" />
 
 - Cyclistic members recorded a greater bicycle activity than casual riders. The total rides for Cyclistic members is 523,323, while 254,096 trips are for casual riders
 - Cyclistic members accounted for about 67.61% of total rides, whereas casual riders made up 32.39% of total rides in that 12-month period
@@ -48,7 +48,7 @@ The figure below shows the total number of rides carried out by Cyclistic member
 ##### - <ins>Types of Bikes<ins/>
 The figure below shows the different types of bikes used for the duration of the 12 months for both member and casual members:
 
-<img width="826" alt="Screen Shot 2025-06-28 at 12 24 51 AM" src="https://github.com/user-attachments/assets/6b2de160-91da-49b1-bbab-a78bbab6ba7b" />
+<img width="1005" alt="Screen Shot 2025-06-28 at 8 33 52 AM" src="https://github.com/user-attachments/assets/b67d43ea-c839-46eb-bf31-5b331980c31f" />
 
 - There are three types of bicycles: classic bikes, electric bikes, and electric scooters
 - Cyclistic members and casual riders prefer to show a higher preference for electric bicycles over classic bicycles
@@ -57,7 +57,8 @@ The figure below shows the different types of bikes used for the duration of the
 ##### - <ins>Average ride duration<ins/>
 The average ride length is plotted against the type of users (member vs. casual):
 
-<img width="837" alt="Screen Shot 2025-06-28 at 12 35 25 AM" src="https://github.com/user-attachments/assets/09ae35c3-3afc-4d98-b34e-2df9a6cab6ae" />
+<img width="1039" alt="Screen Shot 2025-06-28 at 8 33 21 AM" src="https://github.com/user-attachments/assets/e4aaa09b-7665-4dab-8858-e6141fa202b6" />
+
 
 - Casual riders have an average ride duration of 18.327 minutes, whereas annual members have a smaller average ride duration of 11.442 minutes. Hence, the disparity between casual and member riders is almost double
 
