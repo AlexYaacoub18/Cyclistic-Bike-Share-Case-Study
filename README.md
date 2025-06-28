@@ -108,7 +108,7 @@ The analysis on the similarities and differences between annual member riders an
 - Both groups primarily use classic and electric bikes, with very little usage of electric scooters.
 - Average ride duration is higher on weekends for both casual and member riders.
 
-**Differences**
+**Differences:**
 - Casual riders have longer average ride durations (18.33 minutes) than member riders (11.44 minutes).
 - Casual riders prefer electric bikes, while member riders use classic bikes more frequently.
 - Member ride activity is consistent throughout the week, suggesting commuting or utility use.
