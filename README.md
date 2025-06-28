@@ -118,7 +118,7 @@ The analysis on the similarities and differences between annual member riders an
 
 ### Recommended Strategies to Convert Casual Riders into Cyclistic Members
 
-#### Flexible Membership Plans
+#### <ins>Flexible Membership Plans<ins/>
 - Introduce multiple membership tiers such as daily ($3), monthly ($30 to $45), and annual ($365) to meet the needs of different rider types.  
 - Casual riders who bike occasionally or seasonally may be more likely to join if there are low-commitment options available.
 
