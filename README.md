@@ -64,7 +64,7 @@ The average ride length is plotted against the type of users (member vs. casual)
 ##### - <ins>Total rides taken in a month<ins/>
 The preference for cycling activity can be determined by drawing a graph of trips taken against the month from January to December 2022:
 
-<img width="565" alt="Screen Shot 2025-06-28 at 1 11 48 AM" src="https://github.com/user-attachments/assets/2c7e9e23-bdfa-4bb8-be24-cdd224974a23" />
+<img width="872" alt="Screen Shot 2025-06-28 at 8 30 36 AM" src="https://github.com/user-attachments/assets/4e55e406-b7f4-454f-918c-345138909b42" />
 
 - Total riders every month seem pretty consistent, which might indicate an issue with growth in the market
 - We do see a slight fluctuation with an increase in casual and a decrease in member riders between July and November 2024
@@ -74,7 +74,7 @@ The preference for cycling activity can be determined by drawing a graph of trip
 ##### - <ins>Average monthly ride duration <ins/>
 The mean trip duration is depicted in the line graph below:
 
-<img width="654" alt="Screen Shot 2025-06-28 at 12 36 07 AM" src="https://github.com/user-attachments/assets/b1ef0089-e78f-4824-9e81-8d3620824905" />
+<img width="877" alt="Screen Shot 2025-06-28 at 8 31 15 AM" src="https://github.com/user-attachments/assets/22c2709c-1bc3-4f54-9fea-5a4e17f25dc8" />
 
 - The monthly average ride duration for annual members is the highest in July (13.53 minutes)
 - For casual riders, the highest mean trip duration is in May (25.68 minutes)
@@ -98,7 +98,7 @@ The mean ride duration across the week is displayed as follows:
 
 ## Share
 
-<img width="668" alt="Screen Shot 2025-06-28 at 1 09 07 AM" src="https://github.com/user-attachments/assets/ee27f6d5-29ee-43d6-ba1c-09f2618bb9c9" />
+<img width="669" alt="Screen Shot 2025-06-28 at 8 31 57 AM" src="https://github.com/user-attachments/assets/16f47b6c-232f-4a97-8cb2-021f21e2f420" />
 
 The analysis on the similarities and differences between annual member riders and casual riders is presented as such on the dashboard above 
 
