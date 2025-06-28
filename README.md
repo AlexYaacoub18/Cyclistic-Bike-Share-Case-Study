@@ -31,6 +31,8 @@ The steps for processing are as follows:
 
 ### Data Combining
 - Uploaded the 12 datasets to SQL BigQuery and used the WITH...AS and UNION ALL commands to create a temporary table titled "combined_data" and merge all the 12 months datasets, showcasing only the following columns: (ride_length, member_casual, day_of_week, rideable_type, ride_month)
+
+## Analyze
 ### Data Analysis
 The analysis question was:
 #### How do annual members and casual riders use Cyclistic Bikes differently?
@@ -94,7 +96,7 @@ The mean ride duration across the week is displayed as follows:
 - Annual members cycled the longest on Sunday with an average ride length of 12.64 minutes
 - Casual riders cycled the longest on Sunday, with an average ride length of 21.41 minutes
 
-### Share
+## Share
 
 <img width="668" alt="Screen Shot 2025-06-28 at 1 09 07 AM" src="https://github.com/user-attachments/assets/ee27f6d5-29ee-43d6-ba1c-09f2618bb9c9" />
 
@@ -112,4 +114,45 @@ The analysis on the similarities and differences between annual member riders an
 - Member ride activity is consistent throughout the week, suggesting commuting or utility use.
 - Casual riders show higher usage on weekends and lower on weekdays, indicating more recreational or leisure usage.
 
-### Act
+## Act
+
+Recommended Strategies to Convert Casual Riders into Cyclistic Members
+Flexible Membership Plans
+Introduce multiple membership tiers such as daily ($3), monthly ($30 to $45), and annual ($365) to meet the needs of different rider types.
+
+Casual riders who bike occasionally or seasonally may be more likely to join if there are low-commitment options available.
+
+Weekend-Focused Promotions
+Since casual riders are most active on weekends, offer special weekend-only promotions that encourage trying out membership.
+
+For example, consider launching offers like a "Weekend Pass" or "Free Trial Ride for First-Time Members."
+
+Electric Bike Incentives
+Casual riders prefer electric bikes more than member riders.
+
+Promote membership benefits such as lower e-bike rates or early access to electric bikes to appeal to this group.
+
+Ride More, Save More Loyalty Program
+Create a loyalty program where all users earn points for each ride, but only members can redeem those points for rewards such as ride credits or discounts.
+
+This adds value to becoming a member while still engaging casual users.
+
+Seasonal Membership Campaigns
+Use seasonal trends to launch timely membership drives.
+
+For instance, introduce a "Spring into Cycling" campaign with discounted sign-ups and extra perks like bonus ride minutes for new members.
+
+Weekday Commuter Trials
+Casual riders ride less during weekdays, so encourage weekday use through targeted promotions.
+
+Offer morning or weekday-only discounts to show casual riders the benefit of using bikes for daily routines like commuting or errands.
+
+Community Engagement and Events
+Host fun, member-centered events such as group rides, city scavenger hunts, or themed cycling days.
+
+Allow casual riders to participate as guests to experience the community aspect of membership.
+
+Promote these events on social media with member testimonials and photos to build excitement and encourage conversions.
+
+# Conclusion
+This analysis highlights the key differences in how casual and member riders use Cyclistic bikes. By designing targeted strategies that address casual riders' preferences and behavior—such as their love for electric bikes, weekend activity, and longer ride durations—Cyclistic can successfully motivate more casual users to become members.
