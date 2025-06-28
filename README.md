@@ -100,7 +100,7 @@ The mean ride duration across the week is displayed as follows:
 ## Share
 
 <img width="669" alt="Screen Shot 2025-06-28 at 8 31 57 AM" src="https://github.com/user-attachments/assets/16f47b6c-232f-4a97-8cb2-021f21e2f420" />
-
+View [Cyclistic Bike Share Dashboard](https://public.tableau.com/views/Ride_Project/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 The analysis on the similarities and differences between annual member riders and casual riders is presented as such on the dashboard above 
 
 **Similarities:**
