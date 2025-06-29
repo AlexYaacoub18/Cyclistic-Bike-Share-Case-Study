@@ -1,4 +1,4 @@
-AA# Cyclistic-Bike-Share-Case-Study
+AA# Cyclistic_bike_share_case_study
 # Introduction
 The **Cyclistic Bike Share Case Study** is a capstone project for the Google Data Analytics Professional Certificate on Coursera. In this project, I will follow the data analysis process, which will <ins>ask, prepare, process, analyze, share, and act</ins>, to analyze the data. 
 # Background
