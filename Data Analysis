@@ -52,6 +52,7 @@ GROUP BY
   rideable_type;
 
 -- This code will find the total average ride length based on whether the user is a member or casual rider
+-- CAST converts the datatype into a specified datatype
 
 SELECT
 	member_casual AS rider_type,
