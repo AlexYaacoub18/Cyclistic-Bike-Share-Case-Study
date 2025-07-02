@@ -8,7 +8,7 @@ Until now, Cyclistic’s marketing strategy relied on building general awareness
 
 Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, we believe that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, it may be beneficial to focus on converting casual riders into members. This strategy would play to our advantage as casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
 
-That being said, the case study is geared to output a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, we need to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. 
+That being said, the case study has a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, we need to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. 
 # Approach / Steps
 ## ASK
 ### Business Task 
