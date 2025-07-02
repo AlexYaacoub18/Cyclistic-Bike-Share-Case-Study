@@ -2,11 +2,13 @@ AA# Cyclistic_bike_share_case_study
 # Introduction
 The **Cyclistic Bike Share Case Study** is a capstone project for the Google Data Analytics Professional Certificate on Coursera. In this project, I will follow the data analysis process, which will <ins>ask, prepare, process, analyze, share, and act</ins>, to analyze the data. 
 # Background
-Cyclistic is a bike-share program based in Chicago, launched in 2016. Since its inception, it has expanded to include a fleet of 5,824 geotracked bicycles and 692 docking stations throughout the city. Users can unlock a bike from any station and return it to any other station in the network at their convenience.
+In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.
 
-The company offers flexible pricing options, including single-ride passes, full-day passes, and annual memberships. Riders who choose single-ride or full-day passes are considered casual riders, while those who purchase annual memberships are classified as Cyclistic members.
+Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.
 
-Financial analysis has shown that annual members generate more long-term revenue compared to casual riders. As a result, the company is shifting its focus toward converting casual riders into members. To support this strategy, the marketing team is exploring how casual riders and annual members differ in their usage patterns and what factors might encourage casual riders to become members. Historical trip data is being analyzed to uncover trends and inform targeted marketing efforts.
+Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. Although the pricing flexibility helps Cyclistic attract more customers, we believe that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, it may be beneficial to focus on converting casual riders into members. This strategy would play to our advantage as casual riders are already aware of the Cyclistic program and have chosen Cyclistic for their mobility needs.
+
+That being said, the case study is geared to output a clear goal: Design marketing strategies aimed at converting casual riders into annual members. In order to do that, however, we need to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics. 
 # Approach / Steps
 ## ASK
 ### Business Task 
