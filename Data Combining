@@ -1,4 +1,5 @@
 -- This Code will merge all 12 datasets and present only 4 columns titled as combined_data
+
 WITH combined_data AS (
 	SELECT ride_length, member_casual, day_of_week, rideable_type, 'June' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.1 - June 2024`
 	UNION ALL
@@ -13,7 +14,7 @@ WITH combined_data AS (
 	SELECT ride_length, member_casual, day_of_week, rideable_type, 'November' AS ride_month FROM `yaacoub-9854.Case_study_bike_data.6 - November 2024`
 	UNION ALL
 
--- Formatting error here where the ride_length column was being registered as a string rather than a column. Formatting the data to time in excel didn't solve the issue so the code below registers the values in the column in the format of Hours:Minutes:Seconds
+-- Formatting error here where the ride_length column was being registered as a string rather than a column. Formatting the data to time in Excel didn't solve the issue, so the code below registers the values in the column in the format of Hours:Minutes:Seconds
 	
 	SELECT SAFE.PARSE_TIME('%H:%M:%S', CAST(ride_length AS STRING)) AS ride_length, member_casual, day_of_week, rideable_type, 'December' AS ride_month
 	FROM `yaacoub-9854.Case_study_bike_data.7 - December 2024`
